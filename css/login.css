@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #D6E1F3;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-top: 5px solid #0F203E;
+    border-left: 5px solid #0F203E;
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
+    margin: auto;
+    width: 800px;
+    min-width: 600px;
+    height: 325px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 20px #000000;
+    padding: 10px;
+    align-content: center;
+}
+
+hr{
+    width: 6px;
+    background-color: black;
+    margin: 0 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.loginInfo{
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #D6E1F3;
+    border: 5px solid #0F203E;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.loginInfo label{
+    margin: 0;
+    font-family: Bahnschrift, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.card img{
+    margin: auto;
+    width: auto;
+    height: 315px;
+    border-radius: 50%;
+    border: 5px solid #0F203E;
+}
+
+.loginInfo input{
+    width: 97.5%;
+    margin: 5px 0;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 3px;
+}
+
+.loginInfo .loginButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F203E;
+    color: white;
+    border-style: none;
+    width:90%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0;
+    margin: auto;
+    text-decoration: none;
+}
+
+.loginButton:hover{
+    background-color: #000000;
+    color: grey;
+}
+
+.backButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F203E;
+    color: white;
+    border-style: none;
+    width:200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0;
+    margin: auto auto 0;
+    text-decoration: none;
+}

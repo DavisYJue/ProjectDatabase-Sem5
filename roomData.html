@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hospital's Room Information</title>
+    <link rel="stylesheet" href="css/roomData.css">
+</head>
+<body>
+<div class="main">
+    <div class="navBar">
+        <img class="logo" src="assets/hospitalLogo.png" alt="Hospital Logo">
+        <div class="iconGroup">
+            <a href="./generalData.html">
+                <img class="icon" src="assets/generalData.png" alt="General Data Logo">
+            </a>
+            <a href="./medicalRecord.html">
+                <img class="icon" src="assets/medicalRecord.png" alt="Medical Record Logo">
+            </a>
+            <a href="./staffData.html">
+                <img class="icon" src="assets/staffData.png" alt="Staff Data Logo">
+            </a>
+            <a href="#">
+                <img class="active" src="assets/roomData.png" alt="Room Data Logo">
+            </a>
+            <a href="./login.html">
+                <img class="icon" src="assets/logoutLogo.png" alt="Logout Logo">
+            </a>
+        </div>
+    </div>
+
+    <div class="content">
+        <p class="pageTitle">Room's Information</p>
+        <input type="text" name="search" id="search" placeholder="Search">
+        <div class="buttonGroup">
+            <button class="modify">Modify Information</button>
+            <button class="add">Add new</button>
+            <button class="delete">Delete Existing</button>
+        </div>
+
+        <div class="remainingRoom">
+            <h3 class="icuRoomLeft">Remaining Room in ICU : </h3>
+            <h3 class="orRoomLeft">Remaining Room in OR : </h3>
+        </div>
+
+        <table class="mainTable">
+            <thead>
+            <tr>
+                <th>Patient's Name</th>
+                <th>Patient's Diagnose</th>
+                <th>Room Type</th>
+                <th>Room Number</th>
+                <th>Bed Number</th>
+                <th>Assigned Doctor</th>
+                <th>Assigned Nurse</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Custom Name</td>
+                <td>Leg Injury</td>
+                <td>ICU</td>
+                <td>123</td>
+                <td>12</td>
+                <td>Custom Name</td>
+                <td>Custom Name</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="addPopUp">
+    <div class="addPopUpForm">
+        <div class="info">
+            <label for="patientName">Patient's Name</label>
+            <label for="patientDiagnose">Patient's Diagnose</label>
+            <label for="roomType">Room Type</label>
+            <label for="roomNumber">Room Number</label>
+            <label for="bedNumber">Bed Number</label>
+            <label for="assignedDoctor">Assigned Doctor</label>
+            <label for="assignedNurse">Assigned Nurse</label>
+        </div>
+
+        <div class="value">
+            <input type="text" name="patientName" id="patientName">
+            <input type="text" name="patientDiagnose" id="patientDiagnose">
+            <input type="text" name="roomType" id="roomType">
+            <input type="text" name="roomNumber" id="roomNumber">
+            <input type="text" name="bedNumber" id="bedNumber">
+            <input type="text" name="assignedDoctor" id="assignedDoctor">
+            <input type="text" name="assignedNurse" id="assignedNurse">
+        </div>
+    </div>
+
+    <div class="addPopUpButton">
+        <button class="cancelAddNew">Cancel</button>
+        <button class="addNew">Add New</button>
+    </div>
+</div>
+
+<div class="deletePopUp">
+    <table class="deleteTable">
+        <thead>
+        <tr>
+            <th>Patient's Name</th>
+            <th>Patient's Diagnose</th>
+            <th>Room Type</th>
+            <th>Room Number</th>
+            <th>Bed Number</th>
+            <th>Assigned Doctor</th>
+            <th>Assigned Nurse</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Custom Name</td>
+            <td>Leg Injury</td>
+            <td>ICU</td>
+            <td>123</td>
+            <td>12</td>
+            <td>Custom Name</td>
+            <td>Custom Name</td>
+            <td><button class="deleteInfo">Delete</button></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <button class="cancelDelete">Cancel</button>
+</div>
+
+<div class="modifyPopUp">
+    <table class="modifyTable">
+        <thead>
+        <tr>
+            <th>Patient's Name</th>
+            <th>Patient's Diagnose</th>
+            <th>Room Type</th>
+            <th>Room Number</th>
+            <th>Bed Number</th>
+            <th>Assigned Doctor</th>
+            <th>Assigned Nurse</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Custom Name</td>
+            <td><input class="modifyDiagnose" name="modifyDiagnose" id="modifyDiagnose" value="Leg Injury"></td>
+            <td><input class="modifyRoomType" name="modifyRoomType" id="modifyRoomType" value="ICU"></td>
+            <td><input class="modifyRoomNumber" type="text" name="modifyRoomNumber" id="modifyRoomNumber" value="123"></td>
+            <td><input class="modifyBedNumber" type="text" name="modifyBedNumber" id="modifyBedNumber" value="12"></td>
+            <td><input class=modifyAssignedDoctor" type="text" name="modifyAssignedDoctor" id="modifyAssignedDoctor" value="Custom Name"></td>
+            <td><input class="modifyAssignedNurse" type="text" name="modifyAssignedNurse" id="modifyAssignedNurse" value="Custom Name"></td>
+            <td><button class="modifyInfo">Modify</button></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <button class="cancelModify">Cancel</button>
+</div>
+</body>
+</html>

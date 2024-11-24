@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #D6E1F3;
+    width: 100vw;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: column;
+    min-width: 7vw;
+    width: 7vw;
+    height: 99.5vh;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 5px solid #0F203E;
+    border-bottom: 5px solid #0F203E;
+    border-left: 5px solid #0F203E;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.content p{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 100%;
+    height: 13%;
+    border: 5px solid #0F203E;
+}
+
+.iconGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    height: 75%;
+    padding: 0 0 45px 0;
+}
+
+a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.active{
+    padding: 5px;
+    background-color: grey;
+    width: 85%;
+    border-radius: 10px;
+}
+
+.icon{
+    width: 85%;
+    border-radius: 10px;
+}
+
+.icon:hover{
+    width: 95%;
+}
+
+p{
+    color: #0F203E;
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+#search{
+    width: 500px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid #0F203E;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.buttonGroup{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modify{
+    background-color: #a1a2ff;
+    border: 2px solid #0F203E;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.modify:hover{
+    background-color: #6a6cff
+}
+
+.add{
+    background-color: #79ffb8;
+    border: 2px solid #0F203E;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.add:hover{
+    background-color: #00dd59;
+}
+
+.delete{
+    background-color: #ff7979;
+    border: 2px solid #0F203E;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.delete:hover{
+    background-color: #ff3f3f;
+}
+
+.mainTable{
+    border: 3px solid #0F203E;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    border-collapse: collapse;
+}
+
+.mainTable th{
+    padding: 5px;
+    border: 2px solid #0F203E;
+    width: 100px;
+}
+
+.mainTable td{
+    padding: 5px;
+    border: 2px solid #0F203E;
+    width: 100px;
+    font-size: 15px;
+}
+
+.mainTable thead{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mainTable tbody{
+    font-size: 15px;
+}
+
+/*Add Pop Up*/
+
+.addPopUp{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 5px solid #0F203E;
+    width: 750px;
+    height: 425px;
+    gap: 3rem;
+    padding: 1rem;
+}
+
+.addPopUpForm{
+    display: flex;
+    flex-direction: row;
+}
+
+.addPopUpForm .info{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 2.425rem;
+    width: 30%;
+    margin-left: 1rem;
+
+}
+
+.addPopUpForm .value{
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+    width: 100%;
+}
+
+.addPopUpForm .value input{
+    border: none;
+    border-bottom: 2px solid #0F203E;
+    font-size: 20px;
+    margin:  0 1.5rem;
+}
+
+.addNew{
+    background-color: #79ffb8;
+    border: 2px solid #0F203E;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.addNew:hover{
+    background-color: #00dd59;
+}
+
+.cancelAddNew{
+    background-color: #a8a8a8;
+    border: 2px solid #0F203E;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cancelAddNew:hover{
+    background-color: #555555;
+}
+
+.addPopUpButton{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: flex-end;
+    margin-right: 1.25rem;
+}
+
+/*Delete Pop Up*/
+
+.deleteTable{
+    border: 3px solid #0F203E;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    border-collapse: collapse;
+}
+
+.deleteTable th{
+    padding: 5px;
+    border: 2px solid #0F203E;
+    width: 100px;
+}
+
+.deleteTable td{
+    padding: 5px;
+    border: 2px solid #0F203E;
+    width: 100px;
+    font-size: 15px;
+}
+
+.deleteTable thead{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.deleteTable tbody{
+    font-size: 15px;
+}
+
+.deletePopUp{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 5px solid #0F203E;
+    width: 975px;
+    height: auto;
+    padding: 10px;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.deleteInfo{
+    background-color: #ff7979;
+    border: 2px solid #0F203E;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.deleteInfo:hover{
+    background-color: #ff3f3f
+}
+
+.deletePopUp table{
+    width: 950px;
+}
+
+.cancelDelete{
+    background-color: #a8a8a8;
+    border: 2px solid #0F203E;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cancelDelete:hover{
+    background-color: #555555;
+}
+
+/*Modify Pop Up*/
+
+.modifyTable{
+    border: 3px solid #0F203E;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    border-collapse: collapse;
+}
+
+.modifyTable th{
+    padding: 5px;
+    border: 2px solid #0F203E;
+    width: 100px;
+}
+
+.modifyTable td{
+    padding: 5px;
+    border: 2px solid #0F203E;
+    width: 100px;
+    font-size: 15px;
+}
+
+.modifyTable thead{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.modifyTable tbody{
+    font-size: 15px;
+}
+
+.modifyPopUp{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 5px solid #0F203E;
+    width: 1075px;
+    height: auto;
+    padding: 10px;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.modifyInfo{
+    background-color: #a1a2ff;
+    border: 2px solid #0F203E;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.modifyInfo:hover{
+    background-color: #6a6cff
+}
+
+.cancelModify{
+    background-color: #a8a8a8;
+    border: 2px solid #0F203E;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cancelModify:hover{
+    background-color: #555555;
+}
