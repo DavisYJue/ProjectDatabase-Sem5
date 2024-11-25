@@ -44,8 +44,8 @@
         <table class="mainTable1">
             <thead>
             <tr>
+                <th>Treatment Record ID</th>
                 <th>Patient ID</th>
-                <th>Patient Name</th>
                 <th>Diagnosis</th>
                 <th>Treatment Method</th>
                 <th>Treatment Date</th>
@@ -54,7 +54,7 @@
             <tbody>
             <tr>
                 <td>12345</td>
-                <td>Custom Name</td>
+                <td>12345</td>
                 <td>Leg Injury</td>
                 <td>Casts on injured leg</td>
                 <td>01/01/2024</td>
@@ -68,7 +68,7 @@
             <thead>
             <tr>
                 <th>Medical Test ID</th>
-                <th>Patient Name</th>
+                <th>Patient ID</th>
                 <th>Test Name</th>
                 <th>Test Date</th>
                 <th>Test Result</th>
@@ -77,7 +77,7 @@
             <tbody>
             <tr>
                 <td>12345</td>
-                <td>Custom Name</td>
+                <td>12345</td>
                 <td>CT Scan</td>
                 <td>01/01/2024</td>
                 <td>Fracture on bones</td>
@@ -91,7 +91,7 @@
             <thead>
             <tr>
                 <th>Pharmacy Record ID</th>
-                <th>Patient Name</th>
+                <th>Patient ID</th>
                 <th>Medication Detail</th>
                 <th>Issued Date</th>
                 <th>Quantity</th>
@@ -100,7 +100,7 @@
             <tbody>
             <tr>
                 <td>12345</td>
-                <td>Custom Name</td>
+                <td>12345</td>
                 <td>Painkiller</td>
                 <td>01/01/2024</td>
                 <td>1 bottle</td>
@@ -119,16 +119,16 @@
 <div class="addTreatmentPopUp">
     <div class="addTreatmentPopUpForm">
         <div class="info">
-            <label for="patientId">Patient ID</label>
-            <label for="patientNameTreatment">Patient Name</label>
+            <label for=recordId>Treatment Record ID</label>
+            <label for="patientIdTreatment">Patient ID</label>
             <label for="diagnosis">Diagnosis</label>
             <label for="treatmentMethod">Treatment Method</label>
             <label for="treatmentDate">Treatment Date</label>
         </div>
 
         <div class="value">
-            <input type="text" name="patientId" id="patientId">
-            <input type="text" name="patientNameTreatment" id="patientNameTreatment">
+            <input type="text" name="recordId" id="recordId">
+            <input type="text" name="patientIdTreatment" id="patientIdTreatment">
             <input type="text" name="diagnosis" id="diagnosis">
             <input type="text" name="treatmentMethod" id="treatmentMethod">
             <input type="text" name="treatmentDate" id="treatmentDate">
@@ -145,7 +145,7 @@
     <div class="addTestPopUpForm">
         <div class="info">
             <label for="medicalId">Medical ID</label>
-            <label for="patientNameTest">Patient Name</label>
+            <label for="patientIdTest">Patient ID</label>
             <label for="testName">Test Name</label>
             <label for="testDate">Test Date</label>
             <label for="testResult">Test Result</label>
@@ -153,7 +153,7 @@
 
         <div class="value">
             <input type="text" name="medicalId" id="medicalId">
-            <input type="text" name="patientNameTest" id="patientNameTest">
+            <input type="text" name="patientIdTest" id="patientIdTest">
             <input type="text" name="testName" id="testName">
             <input type="text" name="testDate" id="testDate">
             <input type="text" name="testResult" id="testResult">
@@ -170,7 +170,7 @@
     <div class="addPharmacyPopUpForm">
         <div class="info">
             <label for="pharmacyId">Pharmacy ID</label>
-            <label for="patientNamePharmacy">Patient Name</label>
+            <label for="patientIdPharmacy">Patient ID</label>
             <label for="medsDetail">Medication Detail</label>
             <label for="issuedDate">IssuedDate</label>
             <label for="Quantity">Quantity</label>
@@ -178,7 +178,7 @@
 
         <div class="value">
             <input type="text" name="pharmacyId" id="pharmacyId">
-            <input type="text" name="patientNamePharmacy" id="patientNamePharmacy">
+            <input type="text" name="patientIdPharmacy" id="patientIdPharmacy">
             <input type="text" name="medsDetail" id="medsDetail">
             <input type="text" name="issuedDate" id="issuedDate">
             <input type="text" name="Quantity" id="Quantity">
@@ -195,8 +195,8 @@
     <table class="deleteTable">
         <thead>
         <tr>
+            <th>Treatment Record ID</th>
             <th>Patient ID</th>
-            <th>Patient Name</th>
             <th>Diagnosis</th>
             <th>Treatment Method</th>
             <th>Treatment Date</th>
@@ -206,7 +206,7 @@
         <tbody>
         <tr>
             <td>12345</td>
-            <td>Custom Name</td>
+            <td>12345</td>
             <td>Leg Injury</td>
             <td>Casts on injured leg</td>
             <td>01/01/2024</td>
@@ -219,7 +219,7 @@
         <thead>
         <tr>
             <th>Medical Test ID</th>
-            <th>Patient Name</th>
+            <th>Patient ID</th>
             <th>Test Name</th>
             <th>Test Date</th>
             <th>Test Result</th>
@@ -229,7 +229,7 @@
         <tbody>
         <tr>
             <td>12345</td>
-            <td>Custom Name</td>
+            <td>12345</td>
             <td>CT Scan</td>
             <td>01/01/2024</td>
             <td>Fracture on bones</td>
@@ -242,7 +242,7 @@
         <thead>
         <tr>
             <th>Pharmacy Record ID</th>
-            <th>Patient Name</th>
+            <th>Patient ID</th>
             <th>Medication Detail</th>
             <th>Issued Date</th>
             <th>Quantity</th>
@@ -252,7 +252,7 @@
         <tbody>
         <tr>
             <td>12345</td>
-            <td>Custom Name</td>
+            <td>12345</td>
             <td>Painkiller</td>
             <td>01/01/2024</td>
             <td>1</td>
@@ -268,8 +268,8 @@
     <table class="modifyTable">
         <thead>
         <tr>
+            <th>Treatment Record ID</th>
             <th>Patient ID</th>
-            <th>Patient Name</th>
             <th>Diagnosis</th>
             <th>Treatment Method</th>
             <th>Treatment Date</th>
@@ -292,7 +292,7 @@
         <thead>
         <tr>
             <th>Medical Test ID</th>
-            <th>Patient Name</th>
+            <th>Patient ID</th>
             <th>Test Name</th>
             <th>Test Date</th>
             <th>Test Result</th>
@@ -302,7 +302,7 @@
         <tbody>
         <tr>
             <td>12345</td>
-            <td>Custom Name</td>
+            <td>12345</td>
             <td><input class="modifyTestName" type="text" name="modifyTestName" id="modifyTestName" value="CT Scan"></td>
             <td><input class="modifyTestDate" type="text" name="modifyTestDate" id="modifyTestDate" value="01/01/2024"></td>
             <td><input class="modifyTestResult" type="text" name="modifyTestResult" id="modifyTestResult" value="Fracture on bones"></td>
@@ -315,7 +315,7 @@
         <thead>
         <tr>
             <th>Pharmacy Record ID</th>
-            <th>Patient Name</th>
+            <th>Patient ID</th>
             <th>Medication Detail</th>
             <th>Issued Date</th>
             <th>Quantity</th>
@@ -325,7 +325,7 @@
         <tbody>
         <tr>
             <td>12345</td>
-            <td>Custom Name</td>
+            <td>12345</td>
             <td><input class="modifyMeds" type="text" name="modifyMeds" id="modifyMeds" value="Painkiller"></td>
             <td><input class="modifyIssuedDate" type="text" name="modifyIssuedDate" id="modifyIssuedDate" value="01/01/2024"></td>
             <td><input class="modifyQuantity" type="text" name="modifyQuantity" id="modifyQuantity" value="1"></td>
