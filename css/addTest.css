@@ -1,0 +1,82 @@
+/*Add Test Pop Up*/
+
+.addTestPopUp{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 5px solid #0F203E;
+    width: 800px;
+    height: 365px;
+    gap: 3rem;
+    padding: 1rem;
+}
+
+.addTestPopUpForm{
+    display: flex;
+    flex-direction: row;
+}
+
+.addTestPopUpForm .info{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 2.425rem;
+    width: 30%;
+    margin-left: 1rem;
+
+}
+
+.addTestPopUpForm .value{
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+    width: 100%;
+}
+
+.addTestPopUpForm .value input{
+    border: none;
+    border-bottom: 2px solid #0F203E;
+    font-size: 20px;
+    margin:  0 1.5rem;
+}
+
+.addTestNew{
+    background-color: #79ffb8;
+    border: 2px solid #0F203E;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.addTestNew:hover{
+    background-color: #00dd59;
+}
+
+.cancelAddTestNew{
+    background-color: #a8a8a8;
+    border: 2px solid #0F203E;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cancelAddTestNew:hover{
+    background-color: #555555;
+}
+
+.addTestPopUpButton{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: flex-end;
+    margin-right: 1.25rem;
+}
+

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #D6E1F3;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    color: #0F203E;
+}
+
+/*Add Pop Up*/
+
+.addPopUp{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 5px solid #0F203E;
+    width: 750px;
+    height: 540px;
+    gap: 3rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.addPopUpForm{
+    display: flex;
+    flex-direction: row;
+}
+
+.addPopUpForm .info{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 2.425rem;
+    width: 30%;
+    margin-left: 1rem;
+
+}
+
+.addPopUpForm .value{
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+    width: 100%;
+}
+
+.addPopUpForm .value input{
+    border: none;
+    border-bottom: 2px solid #0F203E;
+    font-size: 20px;
+    margin:  0 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.register{
+    background-color: #79ffb8;
+    border: 2px solid #0F203E;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register:hover{
+    background-color: #00dd59;
+}
+
+.cancelRegister{
+    background-color: #a8a8a8;
+    border: 2px solid #0F203E;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancelRegister:hover{
+    background-color: #555555;
+}
+
+.addPopUpButton{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: flex-end;
+    margin-right: 1.25rem;
+}

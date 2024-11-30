@@ -25,7 +25,7 @@
                 <a href="./roomData.html">
                     <img class="icon" src="assets/roomData.png" alt="Room Data Logo">
                 </a>
-                <a href="./login.html">
+                <a href="index.html">
                     <img class="icon" src="assets/logoutLogo.png" alt="Logout Logo">
                 </a>
             </div>
@@ -35,9 +35,8 @@
             <p>Patient's Information</p>
             <input type="text" name="search" id="search" placeholder="Search">
             <div class="buttonGroup">
-                <button class="modify">Modify Information</button>
-                <button class="add">Add new</button>
-                <button class="delete">Delete Existing</button>
+                <button class="edit">Edit Information</button>
+                <a class="add" href="./addGeneralData.html">Add new</a>
             </div>
             <table class="mainTable">
                 <thead>
@@ -48,6 +47,7 @@
                         <th>Age</th>
                         <th>Contact Number</th>
                         <th>Address</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -56,97 +56,22 @@
                         <td>Custom Name</td>
                         <td>Male</td>
                         <td>20</td>
-                        <td>123456789</td>
-                        <td>Abcdef Street No. 123</td>
+                        <td>
+                            <input type="text" name="contactNumber" id="contactNumber" value="123456789">
+                        </td>
+                        <td>
+                            <input type="text" name="address" id="address" value="Abcdef Street No. 123">
+                        </td>
+                        <td>
+                            <div class="tableButtonGroup">
+                                <button class="modifyInfo">Modify</button>
+                                <button class="deleteInfo">Delete</button>
+                            </div>
+                        </td>
                     </tr>
                 </tbody>
             </table>
         </div>
-    </div>
-
-    <div class="addPopUp">
-        <div class="addPopUpForm">
-            <div class="info">
-                <label for="patientId">Patient ID</label>
-                <label for="patientName">Patient Name</label>
-                <label for="gender">Gender</label>
-                <label for="age">Age</label>
-                <label for="contact">Contact Number</label>
-                <label for="address">Address</label>
-            </div>
-
-            <div class="value">
-                <input type="text" name="patientId" id="patientId">
-                <input type="text" name="patientName" id="patientName">
-                <input type="text" name="gender" id="gender">
-                <input type="text" name="age" id="age">
-                <input type="text" name="contact" id="contact">
-                <input type="text" name="address" id="address">
-            </div>
-        </div>
-
-        <div class="addPopUpButton">
-            <button class="cancelAddNew">Cancel</button>
-            <button class="addNew">Add New</button>
-        </div>
-    </div>
-
-    <div class="deletePopUp">
-        <table class="deleteTable">
-            <thead>
-                <tr>
-                    <th>Patient ID</th>
-                    <th>Patient Name</th>
-                    <th>Gender</th>
-                    <th>Age</th>
-                    <th>Contact Number</th>
-                    <th>Address</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>12345</td>
-                    <td>Custom Name</td>
-                    <td>Male</td>
-                    <td>20</td>
-                    <td>123456789</td>
-                    <td>Abcdef Street No. 123</td>
-                    <td><button class="deleteInfo">Delete</button></td>
-                </tr>
-            </tbody>
-        </table>
-
-        <button class="cancelDelete">Cancel</button>
-    </div>
-
-    <div class="modifyPopUp">
-        <table class="modifyTable">
-            <thead>
-                <tr>
-                    <th>Patient ID</th>
-                    <th>Patient Name</th>
-                    <th>Gender</th>
-                    <th>Age</th>
-                    <th>Contact Number</th>
-                    <th>Address</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>12345</td>
-                    <td>Custom Name</td>
-                    <td>Male</td>
-                    <td><input class="modifyAge" type="text" name="modifyAge" id="modifyAge" value="20"></td>
-                    <td><input class="modifyContact" type="text" name="modifyContact" id="modifyContact" value="123456789"></td>
-                    <td><input class="modifyAddress" type="text" name="modifyAddress" id="modifyAddress" value="Abcdef Street No. 123"></td>
-                    <td><button class="modifyInfo">Modify</button></td>
-                </tr>
-            </tbody>
-        </table>
-
-        <button class="cancelModify">Cancel</button>
     </div>
 </body>
 </html>

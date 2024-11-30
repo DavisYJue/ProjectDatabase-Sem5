@@ -98,22 +98,6 @@ p{
     justify-content: flex-end;
 }
 
-.modify{
-    background-color: #a1a2ff;
-    border: 2px solid #0F203E;
-    width: 200px;
-    height: 40px;
-    border-radius: 10px;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin-right: 10px;
-}
-
-.modify:hover{
-    background-color: #6a6cff
-}
-
 .add{
     background-color: #79ffb8;
     border: 2px solid #0F203E;
@@ -123,27 +107,31 @@ p{
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 20px;
-    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .add:hover{
     background-color: #00dd59;
 }
 
-.delete{
-    background-color: #ff7979;
+.edit{
+    background-color: #ff9add;
     border: 2px solid #0F203E;
     width: 200px;
-    height: 40px;
+    height: 44px;
     border-radius: 10px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.delete:hover{
-    background-color: #ff3f3f;
+.edit:hover{
+    background-color: #ff4dc5;
 }
 
 .mainTable1{
@@ -172,6 +160,12 @@ p{
 }
 
 .mainTable1 tbody{
+    font-size: 15px;
+}
+
+.mainTable1 input{
+    width: 95%;
+    margin-left: 3px;
     font-size: 15px;
 }
 
@@ -204,6 +198,12 @@ p{
     font-size: 15px;
 }
 
+.mainTable2 input{
+    width: 95%;
+    margin-left: 3px;
+    font-size: 15px;
+}
+
 .mainTable3{
     border: 3px solid #0F203E;
     background-color: white;
@@ -233,358 +233,26 @@ p{
     font-size: 15px;
 }
 
-/*Add Pop Up*/
-
-.addPopUp{
-    display: flex;
-    flex-direction: row;
-    width: 800px;
-    height: 50px;
-    background-color: white;
-    border: 5px solid #0F203E;
-    padding: 1rem;
-    gap: 1.5rem;
-}
-
-.addPopUp .addTreatment{
-    background-color: #ffbd69;
-    border: 2px solid #0F203E;
-    width: 250px;
-    height: 50px;
-    border-radius: 10px;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.addPopUp .addTreatment:hover{
-    background-color: #ff8700;
-}
-
-.addPopUp .addTest{
-    background-color: #ffbd69;
-    border: 2px solid #0F203E;
-    width: 250px;
-    height: 50px;
-    border-radius: 10px;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.addPopUp .addTest:hover{
-    background-color: #ff8700;
-}
-
-.addPopUp .addPharmacy{
-    background-color: #ffbd69;
-    border: 2px solid #0F203E;
-    width: 250px;
-    height: 50px;
-    border-radius: 10px;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.addPopUp .addPharmacy:hover{
-    background-color: #ff8700;
-}
-
-/*Add Treatment Pop Up*/
-
-.addTreatmentPopUp{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border: 5px solid #0F203E;
-    width: 900px;
-    height: 365px;
-    gap: 3rem;
-    padding: 1rem;
-}
-
-.addTreatmentPopUpForm{
-    display: flex;
-    flex-direction: row;
-}
-
-.addTreatmentPopUpForm .info{
-    font-family: "Inter", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    gap: 2.425rem;
-    width: 30%;
-    margin-left: 1rem;
-
-}
-
-.addTreatmentPopUpForm .value{
-    display: flex;
-    flex-direction: column;
-    gap: 2.25rem;
-    width: 100%;
-}
-
-.addTreatmentPopUpForm .value input{
-    border: none;
-    border-bottom: 2px solid #0F203E;
-    font-size: 20px;
-    margin:  0 1.5rem;
-}
-
-.addTreatmentNew{
-    background-color: #79ffb8;
-    border: 2px solid #0F203E;
-    width: 200px;
-    height: 40px;
-    border-radius: 10px;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.addTreatmentNew:hover{
-    background-color: #00dd59;
-}
-
-.cancelAddTreatmentNew{
-    background-color: #a8a8a8;
-    border: 2px solid #0F203E;
-    width: 100px;
-    height: 40px;
-    border-radius: 10px;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.cancelAddTreatmentNew:hover{
-    background-color: #555555;
-}
-
-.addTreatmentPopUpButton{
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    justify-content: flex-end;
-    margin-right: 1.25rem;
-}
-
-/*Add Test Pop Up*/
-
-.addTestPopUp{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border: 5px solid #0F203E;
-    width: 800px;
-    height: 365px;
-    gap: 3rem;
-    padding: 1rem;
-}
-
-.addTestPopUpForm{
-    display: flex;
-    flex-direction: row;
-}
-
-.addTestPopUpForm .info{
-    font-family: "Inter", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    gap: 2.425rem;
-    width: 30%;
-    margin-left: 1rem;
-
-}
-
-.addTestPopUpForm .value{
-    display: flex;
-    flex-direction: column;
-    gap: 2.25rem;
-    width: 100%;
-}
-
-.addTestPopUpForm .value input{
-    border: none;
-    border-bottom: 2px solid #0F203E;
-    font-size: 20px;
-    margin:  0 1.5rem;
-}
-
-.addTestNew{
-    background-color: #79ffb8;
-    border: 2px solid #0F203E;
-    width: 200px;
-    height: 40px;
-    border-radius: 10px;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.addTestNew:hover{
-    background-color: #00dd59;
-}
-
-.cancelAddTestNew{
-    background-color: #a8a8a8;
-    border: 2px solid #0F203E;
-    width: 100px;
-    height: 40px;
-    border-radius: 10px;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.cancelAddTestNew:hover{
-    background-color: #555555;
-}
-
-.addTestPopUpButton{
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    justify-content: flex-end;
-    margin-right: 1.25rem;
-}
-
-/*Add Pharmacy Pop Up*/
-
-.addPharmacyPopUp{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border: 5px solid #0F203E;
-    width: 800px;
-    height: 365px;
-    gap: 3rem;
-    padding: 1rem;
-}
-
-.addPharmacyPopUpForm{
-    display: flex;
-    flex-direction: row;
-}
-
-.addPharmacyPopUpForm .info{
-    font-family: "Inter", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    gap: 2.425rem;
-    width: 30%;
-    margin-left: 1rem;
-
-}
-
-.addPharmacyPopUpForm .value{
-    display: flex;
-    flex-direction: column;
-    gap: 2.25rem;
-    width: 100%;
-}
-
-.addPharmacyPopUpForm .value input{
-    border: none;
-    border-bottom: 2px solid #0F203E;
-    font-size: 20px;
-    margin:  0 1.5rem;
-}
-
-.addPharmacyNew{
-    background-color: #79ffb8;
-    border: 2px solid #0F203E;
-    width: 200px;
-    height: 40px;
-    border-radius: 10px;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.addPharmacyNew:hover{
-    background-color: #00dd59;
-}
-
-.cancelAddPharmacyNew{
-    background-color: #a8a8a8;
-    border: 2px solid #0F203E;
-    width: 100px;
-    height: 40px;
-    border-radius: 10px;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.cancelAddPharmacyNew:hover{
-    background-color: #555555;
-}
-
-.addPharmacyPopUpButton{
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    justify-content: flex-end;
-    margin-right: 1.25rem;
-}
-
-/*Delete Pop Up*/
-
-.deleteTable{
-    border: 3px solid #0F203E;
-    background-color: white;
-    font-family: "Inter", sans-serif;
-    border-collapse: collapse;
-}
-
-.deleteTable th{
-    padding: 5px;
-    border: 2px solid #0F203E;
-    width: 100px;
-}
-
-.deleteTable td{
-    padding: 5px;
-    border: 2px solid #0F203E;
-    width: 100px;
+.mainTable3 input{
+    width: 95%;
+    margin-left: 3px;
     font-size: 15px;
 }
 
-.deleteTable thead{
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.deleteTable tbody{
-    font-size: 15px;
-}
-
-.deletePopUp{
+.tableButtonGroup{
     display: flex;
-    flex-direction: column;
-    background-color: white;
-    border: 5px solid #0F203E;
-    width: 750px;
-    height: auto;
-    padding: 10px;
-    align-items: center;
-    gap: 1.5rem;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.8rem;
+    width: 100%;
 }
 
 .deleteInfo{
     background-color: #ff7979;
     border: 2px solid #0F203E;
-    width: 150px;
-    height: 40px;
+    width: 45%;
+    height: 35px;
+    margin: 5px 0;
     border-radius: 10px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -595,73 +263,12 @@ p{
     background-color: #ff3f3f
 }
 
-.deletePopUp table{
-    width: 725px;
-}
-
-.cancelDelete{
-    background-color: #a8a8a8;
-    border: 2px solid #0F203E;
-    width: 100px;
-    height: 40px;
-    border-radius: 10px;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.cancelDelete:hover{
-    background-color: #555555;
-}
-
-/*Modify Pop Up*/
-
-.modifyTable{
-    border: 3px solid #0F203E;
-    background-color: white;
-    font-family: "Inter", sans-serif;
-    border-collapse: collapse;
-}
-
-.modifyTable th{
-    padding: 5px;
-    border: 2px solid #0F203E;
-    width: 100px;
-}
-
-.modifyTable td{
-    padding: 5px;
-    border: 2px solid #0F203E;
-    width: 100px;
-    font-size: 15px;
-}
-
-.modifyTable thead{
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.modifyTable tbody{
-    font-size: 15px;
-}
-
-.modifyPopUp{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border: 5px solid #0F203E;
-    width: 950px;
-    height: auto;
-    padding: 10px;
-    align-items: center;
-    gap: 1.5rem;
-}
-
 .modifyInfo{
     background-color: #a1a2ff;
     border: 2px solid #0F203E;
-    width: 150px;
-    height: 40px;
+    width: 45%;
+    height: 35px;
+    margin: 5px 0;
     border-radius: 10px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -670,19 +277,4 @@ p{
 
 .modifyInfo:hover{
     background-color: #6a6cff
-}
-
-.cancelModify{
-    background-color: #a8a8a8;
-    border: 2px solid #0F203E;
-    width: 100px;
-    height: 40px;
-    border-radius: 10px;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.cancelModify:hover{
-    background-color: #555555;
 }

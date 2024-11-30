@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add Treatment Record</title>
+    <link rel="stylesheet" href="css/addTreatment.css">
+</head>
+<body>
+<div class="main">
+    <h1>Add Patient's Treatment Record</h1>
+    <div class="addTreatmentPopUp">
+        <div class="addTreatmentPopUpForm">
+            <div class="info">
+                <label for="patientIdTreatment">Patient ID</label>
+                <label for="diagnosis">Diagnosis</label>
+                <label for="treatmentMethod">Treatment Method</label>
+                <label for="treatmentDate">Treatment Date</label>
+            </div>
+
+            <div class="value">
+                <input type="text" name="patientIdTreatment" id="patientIdTreatment">
+                <input type="text" name="diagnosis" id="diagnosis">
+                <input type="text" name="treatmentMethod" id="treatmentMethod">
+                <input type="text" name="treatmentDate" id="treatmentDate">
+            </div>
+        </div>
+
+        <div class="addTreatmentPopUpButton">
+            <a class="cancelAddTreatment" href="./medicalRecord.html">Cancel</a>
+            <a class="addTreatment" href="./medicalRecord.html">Add New</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
