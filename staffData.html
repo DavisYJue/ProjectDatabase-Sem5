@@ -35,10 +35,9 @@
             <p>Staff Information</p>
             <input type="text" name="search" id="search" placeholder="Search">
             <div class="buttonGroup">
-                <button class="application">Application</button>
-                <button class="modify">Modify Information</button>
-                <button class="add">Add new</button>
-                <button class="delete">Delete Existing</button>
+                <a class="application" href="./staffApplication.html">Application</a>
+                <button class="edit">Edit Information</button>
+                <a class="add" href="./addStaff.html">Add New</a>
             </div>
             <table class="mainTable">
                 <thead>
@@ -50,6 +49,7 @@
                     <th>Department</th>
                     <th>Contact Number</th>
                     <th>Address</th>
+                    <th></th>
                 </tr>
                 </thead>
                 <tbody>
@@ -58,140 +58,25 @@
                     <td>Custom Name</td>
                     <td>Male</td>
                     <td>Doctor</td>
-                    <td>Pediatric</td>
-                    <td>123456789</td>
-                    <td>Abcdef Street No. 123</td>
+                    <td>
+                        <input type="text" name="department" id="department" value="Pediatric">
+                    </td>
+                    <td>
+                        <input type="text" name="contactNumber" id="contactNumber" value="123456789">
+                    </td>
+                    <td>
+                        <input type="text" name="address" id="address" value="Abcdef Street No. 123">
+                    </td>
+                    <td>
+                        <div class="tableButtonGroup">
+                            <button class="modifyInfo">Modify</button>
+                            <button class="deleteInfo">Delete</button>
+                        </div>
+                    </td>
                 </tr>
                 </tbody>
             </table>
         </div>
-    </div>
-
-    <div class="addPopUp">
-        <div class="addPopUpForm">
-            <div class="info">
-                <label for="staffId">Staff ID</label>
-                <label for="staffName">Staff Name</label>
-                <label for="gender">Gender</label>
-                <label for="profession">Profession</label>
-                <label for="department">Department</label>
-                <label for="contact">Contact Number</label>
-                <label for="address">Address</label>
-            </div>
-
-            <div class="value">
-                <input type="text" name="staffId" id="staffId">
-                <input type="text" name="staffName" id="staffName">
-                <input type="text" name="gender" id="gender">
-                <input type="text" name="profession" id="profession">
-                <input type="text" name="department" id="department">
-                <input type="text" name="contact" id="contact">
-                <input type="text" name="address" id="address">
-            </div>
-        </div>
-
-        <div class="addPopUpButton">
-            <button class="cancelAddNew">Cancel</button>
-            <button class="addNew">Add New</button>
-        </div>
-    </div>
-
-    <div class="deletePopUp">
-        <table class="deleteTable">
-            <thead>
-            <tr>
-                <th>Staff ID</th>
-                <th>Staff Name</th>
-                <th>Gender</th>
-                <th>Profession</th>
-                <th>Department</th>
-                <th>Contact Number</th>
-                <th>Address</th>
-                <th></th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>12345</td>
-                <td>Custom Name</td>
-                <td>Male</td>
-                <td>Doctor</td>
-                <td>Pediatric</td>
-                <td>123456789</td>
-                <td>Abcdef Street No. 123</td>
-                <td><button class="deleteInfo">Delete</button></td>
-            </tr>
-            </tbody>
-        </table>
-
-        <button class="cancelDelete">Cancel</button>
-    </div>
-
-    <div class="modifyPopUp">
-        <table class="modifyTable">
-            <thead>
-            <tr>
-                <th>Staff ID</th>
-                <th>Staff Name</th>
-                <th>Gender</th>
-                <th>Profession</th>
-                <th>Department</th>
-                <th>Contact Number</th>
-                <th>Address</th>
-                <th></th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>12345</td>
-                <td>Custom Name</td>
-                <td>Male</td>
-                <td>Doctor</td>
-                <td><input class="modifyDepartment" type="text" name="modifyDepartment" id="modifyDepartment" value="Pediatric"></td>
-                <td><input class="modifyContact" type="text" name="modifyContact" id="modifyContact" value="123456789"></td>
-                <td><input class="modifyAddress" type="text" name="modifyAddress" id="modifyAddress" value="Abcdef Street No. 123"></td>
-                <td><button class="modifyInfo">Modify</button></td>
-            </tr>
-            </tbody>
-        </table>
-
-        <button class="cancelModify">Cancel</button>
-    </div>
-
-    <div class="applicationPopUp">
-        <table class="applicationTable">
-            <thead>
-            <tr>
-                <th>Staff ID</th>
-                <th>Staff Name</th>
-                <th>Gender</th>
-                <th>Profession</th>
-                <th>Department</th>
-                <th>Contact Number</th>
-                <th>Address</th>
-                <th></th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>12345</td>
-                <td>Custom Name</td>
-                <td>Male</td>
-                <td>Doctor</td>
-                <td>Pediatric</td>
-                <td>123456789</td>
-                <td>Abcdef Street No. 123</td>
-                <td>
-                    <div class="permissionButton">
-                        <button class="declineApplication">Decline</button>
-                        <button class="acceptApplication">Accept</button>
-                    </div>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-
-        <button class="cancelApplication">Cancel</button>
     </div>
 </body>
 </html>

@@ -19,30 +19,59 @@ body{
 }
 
 h1{
-    font-size: 2.75rem;
+    font-size: 3.5rem;
     margin-bottom: 1.5rem;
     color: #0F203E;
 }
 
 .addPopUp{
     display: flex;
-    flex-direction: row;
-    width: 830px;
-    height: 75px;
+    flex-direction: column;
     background-color: white;
     border: 5px solid #0F203E;
+    width: 750px;
+    height: 425px;
+    gap: 3rem;
     padding: 1rem;
-    gap: 1.5rem;
-    justify-content: center;
-    align-items: center;
     border-radius: 15px;
 }
 
-.addPopUp .addTreatment{
-    background-color: #ffbd69;
+.addPopUpForm{
+    display: flex;
+    flex-direction: row;
+}
+
+.addPopUpForm .info{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 2.425rem;
+    width: 30%;
+    margin-left: 1rem;
+
+}
+
+.addPopUpForm .value{
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+    width: 100%;
+}
+
+.addPopUpForm .value input{
+    border: none;
+    border-bottom: 2px solid #0F203E;
+    font-size: 20px;
+    margin:  0 1.5rem;
+}
+
+.addNew{
+    background-color: #79ffb8;
     border: 2px solid #0F203E;
-    width: 250px;
-    height: 50px;
+    width: 200px;
+    height: 40px;
     border-radius: 10px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -54,15 +83,15 @@ h1{
     color: black;
 }
 
-.addPopUp .addTreatment:hover{
-    background-color: #ff8700;
+.addNew:hover{
+    background-color: #00dd59;
 }
 
-.addPopUp .addTest{
-    background-color: #ffbd69;
+.cancelAddNew{
+    background-color: #a8a8a8;
     border: 2px solid #0F203E;
-    width: 250px;
-    height: 50px;
+    width: 100px;
+    height: 40px;
     border-radius: 10px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -74,26 +103,14 @@ h1{
     color: black;
 }
 
-.addPopUp .addTest:hover{
-    background-color: #ff8700;
+.cancelAddNew:hover{
+    background-color: #555555;
 }
 
-.addPopUp .addPharmacy{
-    background-color: #ffbd69;
-    border: 2px solid #0F203E;
-    width: 250px;
-    height: 50px;
-    border-radius: 10px;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
+.addPopUpButton{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-}
-
-.addPopUp .addPharmacy:hover{
-    background-color: #ff8700;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: flex-end;
+    margin-right: 1.25rem;
 }

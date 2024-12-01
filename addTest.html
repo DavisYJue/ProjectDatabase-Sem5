@@ -5,34 +5,34 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Add Test </title>
+    <title>Add Medical Test</title>
+    <link rel="stylesheet" href="css/addTest.css">
 </head>
 <body>
+    <div class="main">
+        <h1>Add Medical Test</h1>
+        <div class="addTestPopUp">
+            <div class="addTestPopUpForm">
+                <div class="info">
+                    <label for="patientIdTest">Patient ID</label>
+                    <label for="testName">Test Name</label>
+                    <label for="testDate">Test Date</label>
+                    <label for="testResult">Test Result</label>
+                </div>
 
+                <div class="value">
+                    <input type="text" name="patientIdTest" id="patientIdTest">
+                    <input type="text" name="testName" id="testName">
+                    <input type="text" name="testDate" id="testDate">
+                    <input type="text" name="testResult" id="testResult">
+                </div>
+            </div>
+
+            <div class="addTestPopUpButton">
+                <a class="cancelAddTestNew" href="./medicalRecord.html">Cancel</a>
+                <a class="addTestNew" href="./medicalRecord.html">Add New</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
-
-<div class="addTestPopUp">
-    <div class="addTestPopUpForm">
-        <div class="info">
-            <label for="medicalId">Medical ID</label>
-            <label for="patientIdTest">Patient ID</label>
-            <label for="testName">Test Name</label>
-            <label for="testDate">Test Date</label>
-            <label for="testResult">Test Result</label>
-        </div>
-
-        <div class="value">
-            <input type="text" name="medicalId" id="medicalId">
-            <input type="text" name="patientIdTest" id="patientIdTest">
-            <input type="text" name="testName" id="testName">
-            <input type="text" name="testDate" id="testDate">
-            <input type="text" name="testResult" id="testResult">
-        </div>
-    </div>
-
-    <div class="addTestPopUpButton">
-        <button class="cancelAddTestNew">Cancel</button>
-        <button class="addTestNew">Add</button>
-    </div>
-</div>

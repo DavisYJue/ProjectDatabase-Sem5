@@ -19,30 +19,65 @@ body{
 }
 
 h1{
-    font-size: 2.75rem;
+    font-size: 3.5rem;
     margin-bottom: 1.5rem;
     color: #0F203E;
 }
 
-.addPopUp{
-    display: flex;
-    flex-direction: row;
-    width: 830px;
-    height: 75px;
+.applicationTable{
+    border: 3px solid #0F203E;
     background-color: white;
-    border: 5px solid #0F203E;
-    padding: 1rem;
-    gap: 1.5rem;
+    font-family: "Inter", sans-serif;
+    border-collapse: collapse;
+}
+
+.applicationTable th{
+    padding: 5px;
+    border: 2px solid #0F203E;
+    width: 100px;
+}
+
+.applicationTable td{
+    padding: 5px;
+    border: 2px solid #0F203E;
+    width: 100px;
+    font-size: 15px;
+}
+
+.applicationTable thead{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.applicationTable tbody{
+    font-size: 15px;
+}
+
+.applicationPopUp{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    border: 5px solid #0F203E;
+    width: 1150px;
+    height: 200px;
+    padding: 10px;
+    gap: 1.5rem;
     border-radius: 15px;
 }
 
-.addPopUp .addTreatment{
-    background-color: #ffbd69;
+.permissionButton{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.acceptApplication{
+    background-color: #79ffb8;
     border: 2px solid #0F203E;
-    width: 250px;
-    height: 50px;
+    width: 150px;
+    height: 40px;
     border-radius: 10px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -54,15 +89,15 @@ h1{
     color: black;
 }
 
-.addPopUp .addTreatment:hover{
-    background-color: #ff8700;
+.acceptApplication:hover{
+    background-color: #00dd59;
 }
 
-.addPopUp .addTest{
-    background-color: #ffbd69;
+.declineApplication{
+    background-color: #ff7979;
     border: 2px solid #0F203E;
-    width: 250px;
-    height: 50px;
+    width: 150px;
+    height: 40px;
     border-radius: 10px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -74,15 +109,19 @@ h1{
     color: black;
 }
 
-.addPopUp .addTest:hover{
-    background-color: #ff8700;
+.declineApplication:hover{
+    background-color: #ff3f3f
 }
 
-.addPopUp .addPharmacy{
-    background-color: #ffbd69;
+.ApplicationPopUp table{
+    width: 825px;
+}
+
+.cancelApplication{
+    background-color: #a8a8a8;
     border: 2px solid #0F203E;
-    width: 250px;
-    height: 50px;
+    width: 100px;
+    height: 40px;
     border-radius: 10px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -94,6 +133,6 @@ h1{
     color: black;
 }
 
-.addPopUp .addPharmacy:hover{
-    background-color: #ff8700;
+.cancelApplication:hover{
+    background-color: #555555;
 }
