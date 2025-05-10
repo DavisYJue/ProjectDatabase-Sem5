@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #D6E1F3;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-top: 5px solid #0F203E;
+    border-left: 5px solid #0F203E;
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
+    margin: auto;
+    width: 500px;
+    min-width: 600px;
+    height: 245px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 20px #000000;
+    padding: 10px 10px 0 10px;
+    align-content: center;
+    font-family: Bahnschrift, sans-serif;
+    align-items: center;
+    gap: 10px;
+}
+
+hr{
+    width: 90%;
+    height: 6px;
+    background-color: black;
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 26px;
+}
+
+.backToLogin{
+    background-color: #a8a8a8;
+    border: 2px solid #0F203E;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backToLogin:hover{
+    background-color: #555555;
+}

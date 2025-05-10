@@ -13,8 +13,8 @@
         <img class="logo" src="./assets/hospitalLogo.png" alt="Hospital Logo">
         <h2>Select your role :</h2>
         <div class="role">
-            <a href="registerPatient.html" class="button">Patient</a>
-            <a href="registerStaff.html" class="button">Staff</a>
+            <a href="registerPatient.php" class="button">Patient</a>
+            <a href="registerStaff.php" class="button">Staff</a>
         </div>
     </div>
 </body>

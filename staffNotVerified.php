@@ -15,7 +15,7 @@
         <p>Account has been created !</p>
         <p>Staff account has not been verified yet.</p>
         <p>Please check again later.</p>
-        <a class="backToLogin" href="./index.html">Back</a>
+        <a class="backToLogin" href="index.php">Back</a>
     </div>
 </body>
 </html>

@@ -14,8 +14,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
 }
 
 h1{
@@ -30,7 +30,7 @@ h1{
     background-color: white;
     border: 5px solid #0F203E;
     width: 750px;
-    height: 425px;
+    height: 525px;
     gap: 3rem;
     padding: 1rem;
     border-radius: 15px;
@@ -65,9 +65,10 @@ h1{
     border-bottom: 2px solid #0F203E;
     font-size: 20px;
     margin:  0 1.5rem;
+    padding-left: 0.5rem;
 }
 
-.addNew{
+.register{
     background-color: #79ffb8;
     border: 2px solid #0F203E;
     width: 200px;
@@ -77,17 +78,17 @@ h1{
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
 }
 
-.addNew:hover{
+.register:hover{
     background-color: #00dd59;
 }
 
-.cancelAddNew{
+.cancelRegister{
     background-color: #a8a8a8;
     border: 2px solid #0F203E;
     width: 100px;
@@ -97,13 +98,13 @@ h1{
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
 }
 
-.cancelAddNew:hover{
+.cancelRegister:hover{
     background-color: #555555;
 }
 
@@ -113,4 +114,5 @@ h1{
     gap: 1.5rem;
     justify-content: flex-end;
     margin-right: 1.25rem;
+    margin-top: 20px;
 }

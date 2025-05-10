@@ -12,9 +12,9 @@
     <div class="main">
         <h1>Choose a type to add :</h1>
         <div class="addPopUp">
-            <a class="addTreatment" href="./addTreatment.html">Add Treatment Record</a>
-            <a class="addTest" href="./addTest.html">Add Medical Test</a>
-            <a class="addPharmacy" href="addPharmacy.html">Add Pharmacy Record</a>
+            <a class="addTreatment" href="./addTreatment.php">Add Treatment Record</a>
+            <a class="addTest" href="./addTest.php">Add Medical Test</a>
+            <a class="addPharmacy" href="addPharmacy.php">Add Pharmacy Record</a>
         </div>
     </div>
 </body>

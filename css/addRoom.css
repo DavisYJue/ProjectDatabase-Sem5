@@ -30,7 +30,7 @@ h1{
     background-color: white;
     border: 5px solid #0F203E;
     width: 800px;
-    height: 425px;
+    height: 400px;
     gap: 3rem;
     padding: 1rem;
 }
@@ -112,4 +112,12 @@ h1{
     gap: 1.5rem;
     justify-content: flex-end;
     margin-right: 1.25rem;
+    margin-top: 25px;
+}
+
+.dropdown{
+    width: 92%;
+    margin-left: 24px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
 }

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d4bb60a1-9604-4f17-b353-7bcf12bc23a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ProjectSem5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addGeneralData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addPharmacy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addRoom.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addStaff.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addStaffNotVerified.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addTreatment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/addStaffNotVerified.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generalData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medicalRecord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerPatient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registerStaff.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roomData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staffApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staffData.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addGeneralData.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addPharmacy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addRecordType.html" beforeDir="false" afterPath="$PROJECT_DIR$/addRecordType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addRoom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addStaff.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addTreatment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addGeneralData.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/addGeneralData.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addPharmacy.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/addPharmacy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addRoom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/addRoom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addStaff.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/addStaff.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addTest.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/addTest.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/addTreatment.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/addTreatment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/generalData.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/generalData.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/medicalRecord.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/medicalRecord.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/registerPatient.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/registerPatient.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/registerStaff.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/registerStaff.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/roomData.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/roomData.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/staffApplication.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/staffApplication.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/staffData.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/staffData.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generalData.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicalRecord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registerPatient.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registerStaff.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles.html" beforeDir="false" afterPath="$PROJECT_DIR$/roles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roomData.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staffApplication.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staffData.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staffNotVerified.html" beforeDir="false" afterPath="$PROJECT_DIR$/staffNotVerified.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2pcpAke9gSWoB3BOw9utGo4VqeK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/OneDrive/Documents/School/SCUT/Database/HospitalDatabaseProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.23726.107" />
+        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.23726.107" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4bb60a1-9604-4f17-b353-7bcf12bc23a6" name="Changes" comment="" />
+      <created>1733075076732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733075076732</updated>
+      <workItem from="1733075077792" duration="431000" />
+      <workItem from="1733075668628" duration="76000" />
+      <workItem from="1733124512190" duration="2068000" />
+      <workItem from="1733150962653" duration="14726000" />
+      <workItem from="1733238146689" duration="19665000" />
+      <workItem from="1733301642710" duration="3807000" />
+      <workItem from="1733311489062" duration="3164000" />
+      <workItem from="1733325099917" duration="17192000" />
+      <workItem from="1733369371950" duration="5273000" />
+      <workItem from="1733394657252" duration="2859000" />
+      <workItem from="1733397549293" duration="6502000" />
+      <workItem from="1733416978525" duration="11162000" />
+      <workItem from="1733453291775" duration="693000" />
+      <workItem from="1733479474861" duration="763000" />
+      <workItem from="1733483597577" duration="619000" />
+      <workItem from="1733571760706" duration="34000" />
+      <workItem from="1733581161206" duration="363000" />
+      <workItem from="1733581670668" duration="552000" />
+      <workItem from="1733587545334" duration="91000" />
+      <workItem from="1733593501226" duration="3688000" />
+      <workItem from="1733598031800" duration="20000" />
+      <workItem from="1740813310566" duration="605000" />
+      <workItem from="1740823603310" duration="4000" />
+      <workItem from="1740852557789" duration="1238000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

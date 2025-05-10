@@ -118,7 +118,7 @@ p{
     background-color: #00dd59;
 }
 
-.edit{
+.editAction{
     background-color: #ff9add;
     border: 2px solid #0F203E;
     width: 200px;
@@ -130,151 +130,90 @@ p{
     margin-right: 10px;
 }
 
-.edit:hover{
+.editAction:hover{
     background-color: #ff4dc5;
 }
 
-.mainTable1{
+.mainTable{
     border: 3px solid #0F203E;
     background-color: white;
     font-family: "Inter", sans-serif;
     border-collapse: collapse;
 }
 
-.mainTable1 th{
+.mainTable th{
     padding: 5px;
     border: 2px solid #0F203E;
     width: 100px;
 }
 
-.mainTable1 td{
+.mainTable td{
     padding: 5px;
     border: 2px solid #0F203E;
     width: 100px;
     font-size: 15px;
 }
 
-.mainTable1 thead{
+.mainTable thead{
     font-weight: bold;
     font-size: 20px;
 }
 
-.mainTable1 tbody{
+.mainTable tbody{
     font-size: 15px;
 }
 
-.mainTable1 input{
+.mainTable input{
     width: 95%;
     margin-left: 3px;
     font-size: 15px;
 }
 
-.mainTable2{
-    border: 3px solid #0F203E;
-    background-color: white;
-    font-family: "Inter", sans-serif;
-    border-collapse: collapse;
-}
-
-.mainTable2 th{
-    padding: 5px;
+.editTable {
+    background-color: #ff9add;
     border: 2px solid #0F203E;
-    width: 100px;
-}
-
-.mainTable2 td{
-    padding: 5px;
-    border: 2px solid #0F203E;
-    width: 100px;
-    font-size: 15px;
-}
-
-.mainTable2 thead{
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.mainTable2 tbody{
-    font-size: 15px;
-}
-
-.mainTable2 input{
-    width: 95%;
-    margin-left: 3px;
-    font-size: 15px;
-}
-
-.mainTable3{
-    border: 3px solid #0F203E;
-    background-color: white;
-    font-family: "Inter", sans-serif;
-    border-collapse: collapse;
-}
-
-.mainTable3 th{
-    padding: 5px;
-    border: 2px solid #0F203E;
-    width: 100px;
-}
-
-.mainTable3 td{
-    padding: 5px;
-    border: 2px solid #0F203E;
-    width: 100px;
-    font-size: 15px;
-}
-
-.mainTable3 thead{
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.mainTable3 tbody{
-    font-size: 15px;
-}
-
-.mainTable3 input{
-    width: 95%;
-    margin-left: 3px;
-    font-size: 15px;
-}
-
-.tableButtonGroup{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 0.8rem;
-    width: 100%;
-}
-
-.deleteInfo{
-    background-color: #ff7979;
-    border: 2px solid #0F203E;
-    width: 45%;
+    width: 31.8%;
     height: 35px;
-    margin: 5px 0;
     border-radius: 10px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
+    cursor: pointer;
 }
 
-.deleteInfo:hover{
-    background-color: #ff3f3f
+.editTable:hover {
+    background-color: #ff4dc5;
 }
 
-.modifyInfo{
-    background-color: #a1a2ff;
+.saveInfo {
+    background-color: #ffb552;
     border: 2px solid #0F203E;
-    width: 45%;
+    width: 31.8%;
     height: 35px;
-    margin: 5px 0;
     border-radius: 10px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
+    cursor: pointer;
 }
 
-.modifyInfo:hover{
-    background-color: #6a6cff
+.saveInfo:disabled {
+    background-color: #ffcf91;
+    cursor: not-allowed;
+}
+
+.deleteInfo {
+    background-color: #ff5353;
+    border: 2px solid #0F203E;
+    width: 31.8%;
+    height: 35px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.actionColumn {
+    display: none;
 }

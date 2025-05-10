@@ -60,8 +60,8 @@ h1{
     align-items: center;
     background-color: white;
     border: 5px solid #0F203E;
-    width: 1150px;
-    height: 200px;
+    width: 1400px;
+    height: auto;
     padding: 10px;
     gap: 1.5rem;
     border-radius: 15px;

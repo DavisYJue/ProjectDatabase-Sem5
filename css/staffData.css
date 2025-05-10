@@ -50,6 +50,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
     justify-content: space-between;
     height: 75%;
     padding: 0 0 45px 0;
@@ -98,27 +99,6 @@ p{
     justify-content: flex-end;
 }
 
-.application{
-    background-color: #ffbd69;
-    border: 2px solid #0F203E;
-    width: 200px;
-    height: 40px;
-    border-radius: 10px;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin-right: 10px;
-    text-decoration: none;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.application:hover{
-    background-color: #ff8700;
-}
-
 .add{
     background-color: #79ffb8;
     border: 2px solid #0F203E;
@@ -137,6 +117,27 @@ p{
 
 .add:hover{
     background-color: #00dd59;
+}
+
+.application{
+    background-color: #ffcf91;
+    border: 2px solid #0F203E;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.application:hover{
+    background-color: #ffb552;
 }
 
 .edit{
@@ -176,18 +177,18 @@ p{
     font-size: 15px;
 }
 
+.mainTable input{
+    width: 95%;
+    margin-left: 3px;
+    font-size: 15px;
+}
+
 .mainTable thead{
     font-weight: bold;
     font-size: 20px;
 }
 
 .mainTable tbody{
-    font-size: 15px;
-}
-
-.mainTable input{
-    width: 95%;
-    margin-left: 3px;
     font-size: 15px;
 }
 
@@ -215,18 +216,57 @@ p{
     background-color: #ff3f3f
 }
 
-.modifyInfo{
-    background-color: #a1a2ff;
+.editTable {
+    background-color: #ff9add;
     border: 2px solid #0F203E;
-    width: 45%;
+    width: 31.8%;
+    height: 35px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.editTable:hover {
+    background-color: #ff4dc5;
+}
+
+.deleteInfo {
+    background-color: #ff5353;
+    border: 2px solid #0F203E;
+    width: 31.8%;
     height: 35px;
     margin: 5px 0;
     border-radius: 10px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 0;
 }
 
-.modifyInfo:hover{
-    background-color: #6a6cff
+.deleteInfo:disabled {
+    background-color: #ff7979;
+    border: 2px solid #0F203E;
+    cursor: not-allowed;
+}
+
+.saveInfo {
+    background-color: #ffb552;
+    border: 2px solid #0F203E;
+    width: 31.8%;
+    height: 35px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.saveInfo:disabled {
+    background-color: #ffcf91;
+    border: 2px solid #0F203E;
+    cursor: not-allowed;
 }

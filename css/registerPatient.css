@@ -24,14 +24,13 @@ h1{
     color: #0F203E;
 }
 
-.addPopUp{
+form{
     display: flex;
     flex-direction: column;
     background-color: white;
     border: 5px solid #0F203E;
-    width: 750px;
+    width: 760px;
     height: 490px;
-    gap: 3rem;
     padding: 1rem;
     border-radius: 15px;
 }
@@ -39,6 +38,7 @@ h1{
 .addPopUpForm{
     display: flex;
     flex-direction: row;
+    gap:2px;
 }
 
 .addPopUpForm .info{
@@ -50,7 +50,6 @@ h1{
     gap: 2.425rem;
     width: 30%;
     margin-left: 1rem;
-
 }
 
 .addPopUpForm .value{
@@ -114,4 +113,5 @@ h1{
     gap: 1.5rem;
     justify-content: flex-end;
     margin-right: 1.25rem;
+    margin-top: 50px;
 }

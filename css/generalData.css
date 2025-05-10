@@ -171,14 +171,6 @@ p{
     font-size: 15px;
 }
 
-.tableButtonGroup{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 0.8rem;
-    width: 100%;
-}
-
 .deleteInfo{
     background-color: #ff7979;
     border: 2px solid #0F203E;
@@ -195,18 +187,57 @@ p{
     background-color: #ff3f3f
 }
 
-.modifyInfo{
-    background-color: #a1a2ff;
+.editTable {
+    background-color: #ff9add;
     border: 2px solid #0F203E;
-    width: 45%;
+    width: 31.8%;
+    height: 35px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.editTable:hover {
+    background-color: #ff4dc5;
+}
+
+.deleteInfo {
+    background-color: #ff5353;
+    border: 2px solid #0F203E;
+    width: 31.8%;
     height: 35px;
     margin: 5px 0;
     border-radius: 10px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 0;
 }
 
-.modifyInfo:hover{
-    background-color: #6a6cff
+.deleteInfo:disabled {
+    background-color: #ff7979;
+    border: 2px solid #0F203E;
+    cursor: not-allowed;
+}
+
+.saveInfo {
+    background-color: #ffb552;
+    border: 2px solid #0F203E;
+    width: 31.8%;
+    height: 35px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.saveInfo:disabled {
+    background-color: #ffcf91;
+    border: 2px solid #0F203E;
+    cursor: not-allowed;
 }
